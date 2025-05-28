@@ -19,4 +19,4 @@ app.use("/api/message",messageRoute)
 app.listen(PORT,()=>{
     console.log(`server is running on the port ${PORT}`)
     connectDB()
-})
+})  
